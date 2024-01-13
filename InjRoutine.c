@@ -1,3 +1,5 @@
+// if you're using pasta mapper don't use driver object referenced functions as in DriverUnload etc
+
 #include "../Utils/Imp.hpp"
 
 PVOID SearchOPcode(PDRIVER_OBJECT pObj, PWCHAR DriverName, PCHAR sectionName, PUCHAR opCode, int len, int offset)
